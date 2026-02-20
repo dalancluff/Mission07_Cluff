@@ -10,13 +10,15 @@ namespace Mission06_Cluff.Models
         }
 
         public DbSet<Application> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            
-            // Optional: Add any additional configuration here
-            // For example, you could set default values or add indexes
+
+            // Map to existing table names in the SQLite database
+            modelBuilder.Entity<Application>().ToTable("Movies");
+            modelBuilder.Entity<Category>().ToTable("Categories");
         }
     }
 }

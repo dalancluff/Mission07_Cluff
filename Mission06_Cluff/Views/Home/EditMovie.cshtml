@@ -1,28 +1,22 @@
 @model Mission06_Cluff.Models.Application
 
 @{
-    ViewData["Title"] = "Add Movie";
+    ViewData["Title"] = "Edit Movie";
 }
 
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
 
-            @* Show success message after a movie is successfully added *@
-            @if (TempData["SuccessMessage"] != null)
-            {
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Success!</strong> @TempData["SuccessMessage"]
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
-            }
-
             <div class="card shadow">
-                <div class="card-header bg-primary text-white">
-                    <h2 class="mb-0">Add Movie to Collection</h2>
+                <div class="card-header bg-warning text-dark">
+                    <h2 class="mb-0">Edit Movie</h2>
                 </div>
                 <div class="card-body p-4">
-                    <form method="post" asp-action="AddMovie" asp-controller="Home">
+                    <form method="post" asp-action="EditMovie" asp-controller="Home">
+
+                        @* Hidden field to preserve the movie's primary key on POST *@
+                        <input type="hidden" asp-for="MovieId" />
 
                         @* Category — pulled dynamically from the Categories table *@
                         <div class="mb-3">
@@ -118,7 +112,7 @@
                         <p class="text-muted small mb-3"><span class="text-danger">*</span> Required fields</p>
 
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary btn-lg">Add Movie</button>
+                            <button type="submit" class="btn btn-warning btn-lg">Save Changes</button>
                             <a asp-action="ViewCollection" class="btn btn-outline-secondary">Cancel</a>
                         </div>
 

@@ -2988,11 +2988,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "projectUniqueName": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "projectName": "Mission06_Cluff",
-      "projectPath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "projectPath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "packagesPath": "/Users/dalancluff/.nuget/packages/",
-      "outputPath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/obj/",
+      "outputPath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dalancluff/.nuget/NuGet/NuGet.Config"

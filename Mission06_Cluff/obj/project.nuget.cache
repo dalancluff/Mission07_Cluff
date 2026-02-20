@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ONIVfO9ojqU=",
+  "dgSpecHash": "x8Z6j2krxpg=",
   "success": true,
-  "projectFilePath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+  "projectFilePath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
   "expectedPackageFiles": [
     "/Users/dalancluff/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/dalancluff/.nuget/packages/microsoft.build/17.7.2/microsoft.build.17.7.2.nupkg.sha512",
@@ -53,9 +53,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.Build.Tasks.Core' 17.14.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3q9-fxm7-j8fq",
-      "projectPath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "projectPath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "filePath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "libraryId": "Microsoft.Build.Tasks.Core",
       "targetGraphs": [
         "net10.0"
@@ -65,9 +65,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Microsoft.Build.Utilities.Core' 17.14.8 has a known high severity vulnerability, https://github.com/advisories/GHSA-w3q9-fxm7-j8fq",
-      "projectPath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "projectPath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "warningLevel": 1,
-      "filePath": "/Users/dalancluff/RiderProjects/Mission06_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
+      "filePath": "/Users/dalancluff/RiderProjects/Mission07_Cluff/Mission06_Cluff/Mission06_Cluff.csproj",
       "libraryId": "Microsoft.Build.Utilities.Core",
       "targetGraphs": [
         "net10.0"
