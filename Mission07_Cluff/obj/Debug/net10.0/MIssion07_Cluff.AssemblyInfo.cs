@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MIssion07_Cluff")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a43df3c2074d5dd25e3f4dc6f7eb8f17fc9499d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9311f601f1d37f76e1deedc5214c77908987b527")]
 [assembly: System.Reflection.AssemblyProductAttribute("MIssion07_Cluff")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MIssion07_Cluff")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
